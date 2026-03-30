@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🌸</text></svg>">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Maternal Health Companion</title>
+
+    <!-- Google Translate script dynamically loaded in App.jsx -->
+    <style>
+      /* Force translate widget to look clean inside the app */
+      #google_translate_element .goog-te-gadget {
+        font-family: inherit !important;
+        font-size: 11px !important;
+      }
+      #google_translate_element .goog-te-gadget-simple {
+        background: transparent !important;
+        border: none !important;
+        padding: 0 !important;
+        font-size: 11px !important;
+      }
+      #google_translate_element .goog-te-gadget-simple span,
+      #google_translate_element .goog-te-gadget-simple .goog-te-menu-value span {
+        color: #ffffff !important;
+        font-weight: 800 !important;
+      }
+      #google_translate_element .goog-te-gadget-simple img {
+        display: none !important;
+      }
+      /* Aggressive reset to kill Google's layout shifting */
+      iframe.goog-te-banner-frame { display: none !important; }
+      body > .skiptranslate { display: none !important; }
+      body { top: 0px !important; position: static !important; margin-top: 0px !important; }
+      html { height: 100% !important; margin-top: 0px !important; }
+      
+      /* Hide tooltips and highlights completely */
+      #goog-gt-tt, .goog-te-balloon-frame { display: none !important; }
+      .goog-text-highlight { background-color: transparent !important; box-shadow: none !important; }
+    </style>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
